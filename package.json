@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "a web application for frequency",
   "scripts": {
+    "start": "live-server",
+    "build": "echo 'No build script specified'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hcbryant9/frequency/issues"
   },
-  "homepage": "https://github.com/hcbryant9/frequency#readme"
+  "homepage": "https://github.com/hcbryant9/frequency#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
